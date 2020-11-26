@@ -9,11 +9,6 @@ body {
   background-image: url('./img/bg.png');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 h1,
 h2 {
   text-align: center;
