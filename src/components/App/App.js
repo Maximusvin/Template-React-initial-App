@@ -1,14 +1,16 @@
-// import { Route } from 'react-router-dom';
-// import { Header, Footer, Main, Home, Questions } from 'components';
-// import { AuthPage, ContactsPage, UseFulPage } from 'views';
+import { Route, Switch } from 'react-router-dom';
+import { NotFoundView } from 'views';
+// import { ROUTE_PATHS } from 'services/route-paths';
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>Home Work #2.2</h1>
-      <div>Hello</div>
+      <Switch>
+        {/* <Route path={ROUTE_PATHS._()} exact component={ContactsView} /> */}
+        <Route component={NotFoundView} />
+      </Switch>
     </>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,1 @@
+export { useOnGoMainPage } from './useOnGoMainPage';
